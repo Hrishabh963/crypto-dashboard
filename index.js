@@ -9,7 +9,7 @@ app.use(cors());
 app.use(morgan("coins"));
 
 //routes
-app.get("/coins", (req, res) => {
+app.get("/", (req, res) => {
     const url = "https://api.coinranking.com/v2/coins";
     (async() => {
         try {
