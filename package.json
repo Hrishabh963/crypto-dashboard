@@ -4,6 +4,7 @@
     "description": "Crypto currecny dashboard\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Realtime crypto currency dashboard",
     "main": "index.js",
     "scripts": {
+        "build":"echo success",
         "start": "node index.js",
         "dev": "nodemon index.js"
     },
